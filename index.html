@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.3/angular.min.js"></script>
+    <title>Exercice 6</title>
+  </head>
+  <body>
+    <button type="button" name="show" ng-click="texte = false">Show</button>
+    <button type="button" name="hide" ng-click="texte = true">Hide</button>
+    <!-- lorsqu qu'un texte apparait, l'autre est caché -->
+      <p ng-hide="texte">Bonjour</p>
+      <p ng-show="texte">La Manu Amiens</p>
+      <!-- ng-hide cache le texte / ng-show montre le texte -->
+  </body>
+</html>
